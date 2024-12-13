@@ -38,19 +38,7 @@ The project is divided into the following files:
 4. **README File**
    - Provides an overview and instructions for the project.
 
-## Usage Instructions
 
-### Compilation
-To compile the project, use the following command:
-```bash
-g++ main.cpp Date.cpp -o DateTimeApp
-```
-
-### Execution
-Run the compiled program:
-```bash
-./DateTimeApp
-```
 
 ### Example Operations
 - Add 1 month and 2 hours to a `DateTime` object.
@@ -60,17 +48,11 @@ Run the compiled program:
 ## Dependencies
 - Standard C++ Libraries: `<iostream>`, `<string>`, `<iomanip>`, `<cmath>`
 
-## Sample Output
-Example of running the program:
-```
-After addition: Today is 2025-01-13 and the time is 16:45:30
-Difference in seconds: 31556790
-```
 
 ## Notes
 - The program handles edge cases like leap years and varying days in months.
 - The `DateTime::format` method allows flexible formatting with both placeholders and static text.
 
 ## Author
-This project was implemented by [Your Name].
+This project was implemented by Delina Merhay.
 
